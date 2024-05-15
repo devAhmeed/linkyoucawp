@@ -41,7 +41,7 @@
                     <h3>
                       <?php the_title(); ?>
                     </h3>
-                    <a href="">
+                    <a href="<?php echo esc_url(get_permalink( get_the_ID() ));?>">
                       Apply Now
                     </a>
                   </div>
